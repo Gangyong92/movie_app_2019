@@ -16,8 +16,8 @@ class App extends React.Component {
     return (
       <div>
         <h1>The number is: {this.state.count}</h1>
-        <button onClick={this.add()}>Add</button>
-        <button onClick={this.minus()}>Minus</button>
+        <button onClick={this.add}>Add</button>
+        <button onClick={this.minus}>Minus</button>
       </div>
     );
   }
